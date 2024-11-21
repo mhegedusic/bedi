@@ -148,6 +148,10 @@ footer img {
   font-size: 32px;
   letter-spacing: 2px;
   font-weight: bold;
+  @media (max-width: 530px) {
+    letter-spacing: normal;
+    font-size: 20px;
+  }
 }
 
 .languageSwitch {
