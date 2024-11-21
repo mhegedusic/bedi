@@ -1,74 +1,91 @@
-li:hover{
-    background-color: lightblue;
-    transition: 2s;
+li:hover {
+  background-color: lightblue;
+  transition: 2s;
 }
 
-h1{
-    animation: fadeIn 4s normal;
-  }
+h1 {
+  animation: fadeIn 4s normal;
+}
 
 @keyframes fadeIn {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
+  0% {
+    opacity: 0;
   }
-.logo{
-    width: 100px;
+  100% {
+    opacity: 1;
+  }
+}
+.logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: 50px;
+  border-radius: 50%;
+  @keyframes {
+    width: 50px;
     height: auto;
     position: absolute;
-    left: 0; 
-    right: 0; 
+    left: 0;
+    right: 0;
     margin-inline: 50px;
-    border-radius: 50%; 
+    border-radius: 50%;
+  }
 }
 
-.home p{
-position: absolute;
-left: 0; 
-right: 0; 
-margin-inline: auto; 
-width: fit-content;
-color: black;
-font-size: 10rem;
-font-family: 'Times New Roman', Times, serif;
-letter-spacing: 10rem;
-animation-name: panim;
-animation-duration: 4s;
-animation-delay: 2s;
-animation-fill-mode: both;
-    }
+.home p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+  color: black;
+  font-size: 10rem;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 10rem;
+  animation-name: panim;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
 
 @keyframes panim {
-    0%   {transform: translateX(-1500px);}
-    100% {transform: translateX(0px);}
-    }
+  0% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
-footer{
+footer {
   text-align: start;
   padding: 10px;
   padding-bottom: 30px;
   letter-spacing: normal;
   background-color: rgb(180, 180, 180);
-  margin-top:3%;
+  margin-top: 3%;
   border-radius: 10px;
-  a{
+  a {
     text-decoration: none;
     color: white;
   }
-    }
-      
-footer img{
+}
+
+footer img {
   height: 50px;
   width: 50px;
   padding: 5px;
 }
 
-.icons{
+.icons {
   position: absolute;
   margin-left: 85%;
   margin-top: 3%;
 }
 
-.body{
+.body {
   background-color: black;
 }
 
@@ -78,25 +95,25 @@ footer img{
   letter-spacing: 2px;
 }
 
-._title{
+._title {
   padding-top: 10px;
   font-size: 32px;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
-.languageSwitch{
+.languageSwitch {
   margin-left: 93%;
   position: sticky;
   top: 0%;
 }
-.home_text ul{
+.home_text ul {
   list-style-type: circle;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.home_text li:hover{
+.home_text li:hover {
   background-color: transparent;
 }
 
@@ -104,8 +121,7 @@ footer img{
   display: flex;
 }
 
-.column{
-  flex-basis:50%;
+.column {
+  flex-basis: 50%;
   padding: 5px;
 }
-
