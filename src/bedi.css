@@ -155,7 +155,7 @@ footer img {
   position: sticky;
   top: 0%;
   @media (max-width: 530px) {
-    margin-left: 60%;
+    margin-left: 50%;
     position: sticky;
     top: 0%;
   }
