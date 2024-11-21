@@ -16,9 +16,13 @@ h1 {
   }
 }
 
-.navigation ul li {
+.navigation .li_font {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
   @media (max-width: 530px) {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -106,7 +110,23 @@ footer img {
 .icons {
   position: absolute;
   margin-left: 85%;
-  margin-top: 3%;
+  margin-top: 20px;
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.icons {
+  @media (max-width: 530px) {
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 20px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
 .body {

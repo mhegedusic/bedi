@@ -17,17 +17,17 @@ function Navbar() {
       </a>
       <ul className="d-inline-flex ms-5 list-unstyled">
         <li className="p-4">
-          <Link className="text-decoration-none text-black fs-3" to="/">
+          <Link className="li_font" to="/">
             {t('menu.home')}
           </Link>
         </li>
         <li className="p-4">
-          <Link className="text-decoration-none text-black fs-3" to="/about">
+          <Link className="li_font" to="/about">
             {t('menu.about')}
           </Link>
         </li>
         <li className="p-4">
-          <Link to="/contact" className="text-decoration-none text-black fs-3">
+          <Link to="/contact" className="li_font">
             {t('menu.contact')}
           </Link>
         </li>
