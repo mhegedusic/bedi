@@ -8,11 +8,10 @@ function Home() {
   return (
     <>
       <div className="home me-1">
-        <h1 className="pb-5 text-center">{t('home')}</h1>
-        <p>BEDI</p>
+      <img src="https://i.ibb.co/jr1PPKy/bedi-logo-new.png" alt="bedi-logo-new" border="0" className='bedi_logo_new'/>
         <img
-          className="w-100"
-          src="https://i.ibb.co/8ss49S4/bedi1.jpg"
+          className="w-100 banner"
+          src="https://i.ibb.co/Jd5TQZs/bedi2.jpg"
           alt=""
         ></img>
       </div>
