@@ -15,7 +15,7 @@ const resources = {
         "home_content2": "Naš tim čine iskusni profesionalci koji razumiju koliko su važni detalji. Svakom zadatku pristupamo odgovorno, osiguravajući da vaša imovina bude zaštićena i montirana do savršenstva. Odaberite nas za brzu, pouzdanu i bezbrižnu uslugu. Obratite nam se već danas i uvjerite se zašto su naši klijenti uvijek zadovoljni. Vaš dom zaslužuje najbolje – a mi smo tu da to omogućimo!",
         "menu": {
           "home": "Početna",
-          "about": "O meni",
+          "about": "O nama",
           "contact": "Kontakt",
           "gallery": "Galerija"
         },
@@ -30,7 +30,7 @@ const resources = {
         "description": "Dies ist eine Anwendung auf Deutsch.",
         "home":"Filip - Küchen & Möbelmontage",
         "home_title": "Ihr zuverlässiger Partner für Möbelmontage und Umzüge",
-        "home_content": "Willkommen auf der Webseite Ihrer ersten Adresse für professionelle Möbelmontage, Demontage und Transport. Unser Ziel ist es, jeden Schritt Ihres Umzugs oder Ihrer Raumgestaltung zu erleichtern. Egal, ob Sie umziehen, Ihren Wohnraum neu gestalten oder Unterstützung bei der Montage von Küchen oder Möbeln benötigen – wir sind für Sie da Unsere Dienstleistungen umfassen:",
+        "home_content": "Willkommen auf der Webseite Ihrer ersten Adresse für professionelle Möbelmontage, Demontage und Transport. Unser Ziel ist es, jeden Schritt Ihres Umzugs oder Ihrer Raumgestaltung zu erleichtern. Ob Sie, ob Sie umziehen, Ihren Wohnraum neu gestalten oder Unterstützung bei der Montage von Küchen oder Möbeln benötigen – wir sind für Sie da. Unsere Dienstleistungen umfassen:",
         "li1": "Möbelmontage und -demontage: Präzises und fachgerechtes Zerlegen und Zusammensetzen aller Möbeltypen",
         "li2": "Transport zum neuen Standort: Sicherer und zuverlässiger Transport Ihrer Möbel und Wertgegenstände",
         "li3": "Anpassung an Ihre Bedürfnisse: Individuelle Lösungen für Ihre Wohnräume",
@@ -39,7 +39,7 @@ const resources = {
 
         "menu": {
           "home": "Heim",
-          "about": "Über mich",
+          "about": "Unternehmen",
           "contact": "Kontakt",
           "gallery": "Galerie"
         },
