@@ -19,8 +19,19 @@ const resources = {
           "contact": "Kontakt",
           "gallery": "Galerija"
         },
-        "about_content": "Ovo je sadržaj stranice O meni.",
-        "contact_content": "Kontaktirajte nas",
+        "about_title": "Tko smo mi?",
+        "about_content": `Mi smo vaš pouzdani partner za sve usluge montaže i prilagodbe namještaja.
+        \n Bez obzira na proizvođača ili dobavljača – iz trgovine namještajem, kuhinjskog studija ili online platforme – osiguravamo profesionalnu uslugu prilagođenu vašim potrebama. S nama dobivate brzu, povoljnu i profesionalnu uslugu, usmjerenu na kvalitetu i vaše zadovoljstvo.`,
+        
+        "whatWeDo": "Što sve nudimo?",
+        
+        "about_content2": `Specijalizirani smo za montažu, demontažu i sastavljanje svih vrsta namještaja i kuhinja, bilo da su novi ili rabljeni. \n
+        Također, pružamo sveobuhvatnu pomoć pri selidbama: demontaža namještaja i kuhinja, prijevoz i stručna montaža na novoj lokaciji. Naš tim preuzima i specifične zadatke poput zamjene radnih ploča, 
+        električnih aparata te spajanja elektrike i vodovoda. \n
+        Profesionalno, brzo i povoljno – obratite nam se za prilagođena rješenja.`,
+        
+        "whereAreWe" : "Kako do nas?",
+        "contact_content": "Kontaktirajte nas ",
         "gallery_content": "Ovo je sadržaj stranice Galerija.",
         "col_head":"Što trebam izdvojiti u proračunu kada planiram kuhinju?",
         "col1_p1": "1. Veličina sobe -",
@@ -32,6 +43,7 @@ const resources = {
         "col1_p7": "Za više informacija i ideja, osobni savjeti, vrlo rado odgovaramo na sva vaša pitanja!",
         "col2_p1": "Prilikom planiranja, a pogotovo kod montaže, veliku važnost dajemo da detalji budu na svom mjestu",
         "col2_p2": "Kod planiranja i montaže namještaja, posvećenost detaljima je ono što nas izdvaja. Svaki komad namještaja i svaki prostor tretiramo kao jedinstven, prilagođavajući se vašim potrebama i željama. Naš cilj je osigurati savršeno poravnanje, precizno postavljanje i funkcionalnost svakog elementa. Bilo da se radi o preciznom  postavljanju kuhinjskih elemenata ili skladnom uklapanju namještaja u vaš prostor, osiguravamo Vam da svaki detalj bude na pravom mjestu. Jer, sitnice čine razliku!"
+      
       }
     },
     de: {
@@ -48,12 +60,27 @@ const resources = {
 
 
         "menu": {
-          "home": "Heim",
+          "home": "Startseite",
           "about": "Unternehmen",
           "contact": "Kontakt",
           "gallery": "Galerie"
         },
-        "about_content": "Dies ist der Inhalt der Über mich-Seite.",
+
+        "about_title": "Wer sind wir?",
+        
+        "about_content": `Wir sind Ihr zuverlässiger Partner für alle Dienstleistungen rund um die Montage und Anpassung von Möbeln.
+        \n Unabhängig vom Hersteller oder Lieferanten – sei es aus einem Möbelhaus, Küchenstudio oder einer Online-Plattform – bieten 
+        wir einen professionellen Service, der individuell auf Ihre Bedürfnisse zugeschnitten ist. Mit uns erhalten Sie eine schnelle, 
+        kostengünstige und professionelle Dienstleistung, die auf Qualität und Ihre Zufriedenheit ausgerichtet ist.`,
+        
+        "whatWeDo": "Was bieten wir an?",
+        "about_content2": `Wir sind auf die Montage, Demontage und den Zusammenbau aller Arten von Möbeln und Küchen spezialisiert, sowohl neue als auch gebrauchte. \n
+        Außerdem bieten wir umfassende Umzugsservices: Demontage von Möbeln und Küchen, Transport und professionelle Montage an Ihrem neuen Standort. Unser Team übernimmt
+        auch spezifische Aufgaben wie den Austausch von Arbeitsplatten, elektrischen Geräten sowie die Elektro- und Sanitärinstallation. \n
+        Professionell, schnell und kostengünstig – kontaktieren Sie uns für maßgeschneiderte Lösungen.`,
+
+        "whereAreWe" : "Wie erreichen Sie uns?",
+
         "contact_content": "Kontaktieren Sie uns",
         "gallery_content": "Dies ist der Inhalt der Galerie-Seite.",
         "col_head":"Was sollte ich bei der Küchenplanung im Budget berücksichtigen?",
@@ -65,7 +92,7 @@ const resources = {
         "col1_p6": "Unverzichtbar sind: Kühlschrank, Gefrierschrank, Kochfeld, Backofen und Armaturen. Spülmaschine und Dunstabzug erleichtern den Alltag. Leidenschaftliche Köche profitieren von Dampfgarern, Wärmeschubladen und Weinkühlschränken.",
         "col1_p7": "Für weitere Informationen und persönliche Beratung stehen wir Ihnen gerne zur Verfügung!",
         "col2_p1": "Bei der Planung und vor allem bei der Montage legen wir großen Wert darauf, dass jedes Detail seinen richtigen Platz hat.",
-        "col2_p2": "Bei der Planung und Montage von Möbeln ist unsere Liebe zum Detail das, was uns auszeichnet. Jedes Möbelstück und jeder Raum wird von uns als einzigartig betrachtet, stets abgestimmt auf Ihre Bedürfnisse und Wünsche. Unser Ziel ist es, perfekte Ausrichtung, präzise Installation und die volle Funktionalität jedes Elements zu gewährleisten. Egal ob es sich um die exakte Platzierung von Küchenelementen oder die harmonische Integration von Möbeln in Ihren Raum handelt – wir stellen sicher, dass jedes Detail an seinem Platz ist. Denn es sind die kleinen Dinge, die den Unterschied"
+        "col2_p2": "Bei der Planung und Montage von Möbeln ist unsere Liebe zum Detail das, was uns auszeichnet. Jedes Möbelstück und jeder Raum wird von uns als einzigartig betrachtet, stets abgestimmt auf Ihre Bedürfnisse und Wünsche. Unser Ziel ist es, perfekte Ausrichtung, präzise Installation und die volle Funktionalität jedes Elements zu gewährleisten. Egal ob es sich um die exakte Platzierung von Küchenelementen oder die harmonische Integration von Möbeln in Ihren Raum handelt – wir stellen sicher, dass jedes Detail an seinem Platz ist. Denn es sind die kleinen Dinge, die den Unterschied ausmachen."
       }
     }
   };

@@ -7,7 +7,9 @@ function Contact() {
   return (
     <div className='ms-4'>
       <h2>{t('menu.contact')}</h2>
-      <p>{t('contact_content')}</p> {/* Dodaj odgovarajući sadržaj */}
+      <p>{t('contact_content').split('\n').map((line, index) => (
+        <p key={index}>{line}</p>
+      ))}</p> {/* Dodaj odgovarajući sadržaj */}
     </div>
   );
 }

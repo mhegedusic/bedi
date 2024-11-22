@@ -37,6 +37,27 @@ h1 {
   }
 }
 
+.aboutPage{
+  color: #FFFBA6;
+}
+
+.iframes iframe
+{
+  margin-left: 150px;
+  @media (max-width:530px){
+    margin-left: 50px;
+  }
+}
+
+.whereAreWe{
+  color: #FFFBA6;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  h2{
+    font-weight: bold;
+  }
+}
+
 .bodyBackground{
   background-color: #3f3f41;
   border-radius: 20px;
