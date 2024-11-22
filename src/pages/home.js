@@ -51,7 +51,7 @@ function Home() {
       <div className="flex d-sm-flex">
         <div className="column ms-2">
           <p className="ms-2">
-            {t("col_head")}
+            <strong>{t("col_head")}</strong>
             <p className="ms-4 me-4">
               <br />
               {t("col1_p1")}
@@ -73,7 +73,7 @@ function Home() {
 
         <div className="column ms-2">
           <p className="ms-2">
-            {t("col2_p1")}
+          <strong>{t("col2_p1")}</strong>
             <br />
             <p className="ms-0 p-4 ">
             {t("col2_p2")}

@@ -1,12 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './bedi.css';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer">
       <footer>
         <div className="icons">
-          <p className="contactUs">Kontaktirajte nas</p>
+          <p className="contactUs"><strong>{t("contact_content")}</strong></p>
           <a href="https://www.facebook.com/fbmontage" target="_blank">
             <img
               src="https://www.freeiconspng.com/uploads/facebook-logo-3.png"
@@ -26,8 +28,8 @@ const Footer = () => {
         <strong>
           Filip Bedi <br />
           Filip - Küchen & Möbelmontage <br />
-          <a href="tel:+49 173 2989675">Tel: +49 173 2989675</a> <br />
-          <a href="mailto:bf-design@hotmail.com">bf-design@hotmail.com</a>
+          <a href="tel:+49 173 2989675"><strong>Tel: +49 173 2989675</strong></a> <br />
+          <a href="mailto:bf-design@hotmail.com"><strong>bf-design@hotmail.com</strong></a>
         </strong>
       </footer>
     </div>

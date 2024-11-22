@@ -20,7 +20,7 @@ const resources = {
           "gallery": "Galerija"
         },
         "about_content": "Ovo je sadržaj stranice O meni.",
-        "contact_content": "Ovo je sadržaj stranice Kontakt.",
+        "contact_content": "Kontaktirajte nas",
         "gallery_content": "Ovo je sadržaj stranice Galerija.",
         "col_head":"Što trebam izdvojiti u proračunu kada planiram kuhinju?",
         "col1_p1": "1. Veličina sobe -",
@@ -54,7 +54,7 @@ const resources = {
           "gallery": "Galerie"
         },
         "about_content": "Dies ist der Inhalt der Über mich-Seite.",
-        "contact_content": "Dies ist der Inhalt der Kontaktseite.",
+        "contact_content": "Kontaktieren Sie uns",
         "gallery_content": "Dies ist der Inhalt der Galerie-Seite.",
         "col_head":"Was sollte ich bei der Küchenplanung im Budget berücksichtigen?",
         "col1_p1": "1. Raumgröße:",
