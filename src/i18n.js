@@ -7,7 +7,7 @@ const resources = {
         "welcome": "Dobrodošli",
         "description": "Ovo je aplikacija na hrvatskom jeziku.",
         "home":"Filip - Montaža kuhinje i namještaja",
-        "home_title": "Vaš pouzdani partner za montažu i selidbu namještaja",
+        "home_title": "Vaš pouzdani partner za izmjeru, osobno savjetovanje, dostavu i montažu",
         "home_content": "Dobrodošli na stranicu vaše omiljene destinacije za profesionalnu montažu, demontažu i transport namještaja. Naš cilj je olakšati svaki korak procesa selidbe i prilagodbe prostora. Bez obzira na to selite li se u novi dom, preuređujete postojeći prostor ili trebate pomoć s montažom kuhinje ili drugog namještaja, mi smo tu za vas. Naša usluga obuhvaća:",
         "li1": "Montažu i demontažu namještaja: Precizno i stručno rastavljamo i sastavljamo sve vrste namještaja",
         "li2": "Prijevoz na novu lokaciju: Sigurno prevozimo vaše dragocjenosti na novu adresu",
@@ -51,12 +51,12 @@ const resources = {
         "welcome": "Willkommen",
         "description": "Dies ist eine Anwendung auf Deutsch.",
         "home":"Filip - Küchen & Möbelmontage",
-        "home_title": "Ihr zuverlässiger Partner für Möbelmontage und Umzüge",
+        "home_title": "Ihr zuverlässiger Partner für Aufmaß, persönliche Beratung, Lieferung und Montage",
         "home_content": "Willkommen auf der Webseite Ihrer ersten Adresse für professionelle Möbelmontage, Demontage und Transport. Unser Ziel ist es, jeden Schritt Ihres Umzugs oder Ihrer Raumgestaltung zu erleichtern.Ob Sie umziehen, Ihren Wohnraum neu gestalten oder Unterstützung bei der Montage von Küchen oder Möbeln benötigen – wir sind für Sie da. Unsere Dienstleistungen umfassen:",
         "li1": "Möbelmontage und -demontage: Präzises und fachgerechtes Zerlegen und Zusammensetzen aller Möbeltypen",
         "li2": "Transport zum neuen Standort: Sicherer und zuverlässiger Transport Ihrer Möbel und Wertgegenstände",
         "li3": "Anpassung an Ihre Bedürfnisse: Individuelle Lösungen für Ihre Wohnräume",
-        "home_content2": "Unser Team besteht aus erfahrenen Fachkräften, die auf jedes Detail achten. Wir behandeln Ihre Möbel mit größter Sorgfalt und sorgen dafür, dass alles perfekt montiert wird. Wählen Sie uns für eine schnelle, zuverlässige und stressfreie Abwicklung. Kontaktieren Sie uns noch heute und erleben Sie, warum unsere Kunden immer zufrieden sind. Ihr Zuhause verdient das Beste – und wir machen es möglich!",
+        "home_content2": "Unser Team https://i.ibb.co/Jd5TQZs/bedi2.jpgbesteht aus erfahrenen Fachkräften, die auf jedes Detail achten. Wir behandeln Ihre Möbel mit größter Sorgfalt und sorgen dafür, dass alles perfekt montiert wird. Wählen Sie uns für eine schnelle, zuverlässige und stressfreie Abwicklung. Kontaktieren Sie uns noch heute und erleben Sie, warum unsere Kunden immer zufrieden sind. Ihr Zuhause verdient das Beste – und wir machen es möglich!",
 
 
         "menu": {

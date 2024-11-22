@@ -92,6 +92,14 @@ h1 {
   }
 }
 
+.location {
+  @media (max-width:530px){
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+
+  }
+}
 
 .bodyBackground{
   background-color: #3f3f41;
