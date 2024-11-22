@@ -24,7 +24,7 @@ h1 {
 
 .navigation{
   padding-top: 20px;
-  box-shadow: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 2px 2px #FFFBA6;
 }
 
 .navigation .li_font {
@@ -234,7 +234,7 @@ footer img {
 }
 
 .home img{
-  box-shadow: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 5px 5px ;
 }
 
 .column p {
