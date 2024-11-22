@@ -38,9 +38,7 @@ h1 {
 }
 
 .bodyBackground{
-  background-image: url("https://i.ibb.co/QM0Mg96/bedi-logo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #3f3f41;
   border-radius: 20px;
   margin-top:10px;
   margin-left: 20px;
