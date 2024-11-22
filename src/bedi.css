@@ -64,9 +64,9 @@ h1 {
     width: 40px;
     height: auto;
     position: absolute;
-    left: 0;
+    left: -20px;
     right: 0;
-    top: 71px;
+    top: 65px;
     margin-inline: 50px;
     border-radius: 50%;
   }
