@@ -5,7 +5,6 @@ import LanguageSwitcher from './languageswitcher';
 import Navbar from './navbar';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Gallery from './pages/gallery';
 import Home from './pages/home';
 import Footer from './footer';
 
@@ -13,8 +12,8 @@ function App() {
   const { t } = useTranslation();
 
   return (
+    <div className='ms-4 mt-2 mb-2 me-4 bodyBackground'>
     <Router>
-      <div className='ms-4 mt-2 mb-2 me-4 bg-light'>
         <LanguageSwitcher />
         <Navbar />
         <Routes>
@@ -22,10 +21,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer></Footer>
-      </div>
-      
+        <Footer></Footer>  
     </Router>
+    </div>
   );
 }
 
