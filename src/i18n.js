@@ -30,7 +30,7 @@ const resources = {
         "description": "Dies ist eine Anwendung auf Deutsch.",
         "home":"Filip - Küchen & Möbelmontage",
         "home_title": "Ihr zuverlässiger Partner für Möbelmontage und Umzüge",
-        "home_content": "Willkommen auf der Webseite Ihrer ersten Adresse für professionelle Möbelmontage, Demontage und Transport. Unser Ziel ist es, jeden Schritt Ihres Umzugs oder Ihrer Raumgestaltung zu erleichtern. Ob Sie, ob Sie umziehen, Ihren Wohnraum neu gestalten oder Unterstützung bei der Montage von Küchen oder Möbeln benötigen – wir sind für Sie da. Unsere Dienstleistungen umfassen:",
+        "home_content": "Willkommen auf der Webseite Ihrer ersten Adresse für professionelle Möbelmontage, Demontage und Transport. Unser Ziel ist es, jeden Schritt Ihres Umzugs oder Ihrer Raumgestaltung zu erleichtern.Ob Sie umziehen, Ihren Wohnraum neu gestalten oder Unterstützung bei der Montage von Küchen oder Möbeln benötigen – wir sind für Sie da. Unsere Dienstleistungen umfassen:",
         "li1": "Möbelmontage und -demontage: Präzises und fachgerechtes Zerlegen und Zusammensetzen aller Möbeltypen",
         "li2": "Transport zum neuen Standort: Sicherer und zuverlässiger Transport Ihrer Möbel und Wertgegenstände",
         "li3": "Anpassung an Ihre Bedürfnisse: Individuelle Lösungen für Ihre Wohnräume",
