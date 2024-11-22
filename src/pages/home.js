@@ -51,48 +51,32 @@ function Home() {
       <div className="flex d-sm-flex">
         <div className="column ms-2">
           <p className="ms-2">
-            Što trebam izdvojiti u proračunu kada planiram kuhinju?
+            {t("col_head")}
             <p className="ms-4 me-4">
               <br />
-              1. Veličina sobe -
+              {t("col1_p1")}
               <br />
-              Nije samo dužni metar ono što određuje cijenu. Proizvodi po
-              narudžbi također su ključni, na primjer ako se skladišni prostor
-              tj. ormarići i slično planira više.
+              {t("col1_p2")}
               <br />
-              2. Materijali -
+              {t("col1_p3")}
               <br />
-              Iverica se smatra najjeftinijim postoljem za kuhinjski namještaj.
-              Drveni furnir ili lak obično su u srednjem cjenovnom segmentu.
-              Kamen i staklo su skuplji.
+              {t("col1_p4")}
               <br />
-              3. Ugradbeni aparati -
+              {t("col1_p5")}
               <br />
-              Ono što morate imati su: hladnjak i zamrzivač, ploča za kuhanje,
-              pećnica, armatura. Perilica posuđa i napa također olakšavaju
-              svakodnevno kuhanje. Strastveni kuhari imaju koristi od kuhala na
-              paru, ladice za grijanje i hladnjaka za vino.
+              {t("col1_p6")}
               <br />
-              Za više informacija i ideja, osobni savjeti, vrlo rado odgovaramo
-              na sva vaša pitanja
+              {t("col1_p7")}
             </p>
           </p>
         </div>
 
         <div className="column ms-2">
           <p className="ms-2">
-            Prilikom planiranja, a pogotovo kod montaže, veliku važnost dajemo
-            da detalji budu na svom mjestu
+            {t("col2_p1")}
             <br />
             <p className="ms-0 p-4 ">
-              Kod planiranja i montaže namještaja, posvećenost detaljima je ono
-              što nas izdvaja. Svaki komad namještaja i svaki prostor tretiramo
-              kao jedinstven, prilagođavajući se vašim potrebama i željama. Naš
-              cilj je osigurati savršeno poravnanje, precizno postavljanje i
-              funkcionalnost svakog elementa. Bilo da se radi o preciznom
-              postavljanju kuhinjskih elemenata ili skladnom uklapanju
-              namještaja u vaš prostor, osiguravamo Vam da svaki detalj bude na
-              pravom mjestu. Jer, sitnice čine razliku!
+            {t("col2_p2")}
             </p>
           </p>
         </div>
