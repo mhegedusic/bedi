@@ -7,6 +7,9 @@ li:hover {
 h1 {
   animation: fadeIn 4s normal;
   margin-top: 50px;
+  @media (max-width:530px){
+    margin-bottom: -20px;
+  }
 }
 
 @keyframes fadeIn {
