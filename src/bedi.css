@@ -55,8 +55,9 @@ h1 {
 
 .whereAreWe{
   color: #FFFBA6;
-  margin-left: 1.5rem;
+  text-align: center;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   h2{
     font-weight: bold;
   }
