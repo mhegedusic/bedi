@@ -84,7 +84,7 @@ function Home() {
             Prilikom planiranja, a pogotovo kod montaže, veliku važnost dajemo
             da detalji budu na svom mjestu
             <br />
-            <p className="ms-4 p-4 ">
+            <p className="ms-0 p-4 ">
               Kod planiranja i montaže namještaja, posvećenost detaljima je ono
               što nas izdvaja. Svaki komad namještaja i svaki prostor tretiramo
               kao jedinstven, prilagođavajući se vašim potrebama i željama. Naš
