@@ -82,16 +82,13 @@ h1 {
     position: absolute;
     left: 0;
     right: 0;
-    margin-inline: auto;
-    width: fit-content;
-    color: #FFFBA6;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 200px;
+    margin-left: -30px;
     animation-name: panim;
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: both;
-    letter-spacing: 20px;
   }
 }
 
