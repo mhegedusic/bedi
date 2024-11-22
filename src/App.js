@@ -12,7 +12,7 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div className='ms-4 mt-2 mb-2 me-4 bodyBackground'>
+    <div className='bodyBackground'>
     <Router>
         <LanguageSwitcher />
         <Navbar />
