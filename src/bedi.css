@@ -7,6 +7,7 @@ li:hover {
 h1 {
   animation: fadeIn 4s normal;
   margin-top: 50px;
+  color: #FFFBA6;
   @media (max-width:530px){
     margin-bottom: -20px;
   }
@@ -22,14 +23,13 @@ h1 {
 }
 
 .navigation{
-  background-color: grey;
   padding-top: 20px;
   box-shadow: 5px 5px 5px 5px;
 }
 
 .navigation .li_font {
   text-decoration: none;
-  color: lightblue;
+  color: #FFFBA6;
   font-weight: bold;
   font-size: 1.5rem;
   @media (max-width: 530px) {
@@ -38,7 +38,9 @@ h1 {
 }
 
 .bodyBackground{
-  background-color: lightgray;
+  background-image: url("https://i.ibb.co/QM0Mg96/bedi-logo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 20px;
   margin-top:10px;
   margin-left: 20px;
@@ -75,13 +77,18 @@ h1 {
   }
 }
 
+
+.home{
+  margin-left: 0.5px;
+}
+
 .home p {
   position: absolute;
   left: 0;
   right: 0;
   margin-inline: auto;
   width: fit-content;
-  color: black;
+  color: #FFFBA6;
   font-size: 10rem;
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 10rem;
@@ -95,7 +102,7 @@ h1 {
     right: 0;
     margin-inline: auto;
     width: fit-content;
-    color: black;
+    color: #FFFBA6;
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
     animation-name: panim;
@@ -120,13 +127,13 @@ footer {
   padding: 10px;
   padding-bottom: 30px;
   letter-spacing: normal;
-  background-color: rgb(180, 180, 180);
   margin-top: 3%;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px;
+  color: #FFFBA6;
   a {
     text-decoration: none;
-    color: white;
+    color: #FFFBA6;
   }
 }
 
@@ -193,6 +200,10 @@ footer img {
     top: 0%;
   }
 }
+
+.languageSwitch button{
+  color: #FFFBA6;
+}
 .home_text ul {
   list-style-type: circle;
   padding-top: 10px;
@@ -201,6 +212,10 @@ footer img {
 
 .home_text li:hover {
   background-color: transparent;
+}
+
+.home_text{
+  color: #FFFBA6;
 }
 
 .flex {
@@ -223,10 +238,12 @@ footer img {
 }
 
 .column p {
+  color: #FFFBA6;
   @media (max-width: 530px) {
     font-size: 12px;
     padding: 0px;
     margin-left: 0px;
+    
   }
 }
 

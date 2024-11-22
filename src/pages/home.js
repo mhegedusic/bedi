@@ -7,11 +7,11 @@ function Home() {
 
   return (
     <>
-      <div className="home ms-4 me-4">
+      <div className="home me-1">
         <h1 className="pb-5 text-center">{t('home')}</h1>
         <p>BEDI</p>
         <img
-          className="w-100 rounded-2"
+          className="w-100"
           src="https://i.ibb.co/8ss49S4/bedi1.jpg"
           alt=""
         ></img>
