@@ -313,3 +313,18 @@ footer img {
 .column img{
   box-shadow: 5px 5px 5px 5px;
 }
+
+.crsl{
+  width: 50%;
+  margin: auto;
+  @media (max-width: 530px) {
+    width: 80%;
+  }
+}
+
+.crsl img{
+  height: 700px;
+  @media (max-width: 530px) {
+    height: 300px;
+  }
+}
