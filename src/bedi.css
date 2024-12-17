@@ -330,3 +330,60 @@ footer img {
     height: 300px;
   }
 }
+
+.contactForm{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -15px 15px 50px 20px #464646;
+  margin-top: 50px;
+  color: #FFFBA6;
+  background-image: url('https://i.ibb.co/jr1PPKy/bedi-logo-new.png');
+  background-size:cover;
+  background-position: -110px;
+  @media (max-width: 530px) {
+    max-width: 300px;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: -45px;
+  }
+}
+
+.contactForm label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  @media (max-width: 530px) {
+    margin-bottom: 0px;
+    border: 0px;
+    padding: 5px;
+  }
+}
+
+.contactForm button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #3f3f41;
+  color: #FFFBA6;
+  font-size: 20px;
+  cursor: pointer;
+  @media (max-width: 530px) {
+    margin-top: 20px;
+  }
+}
+
+.contactForm button:hover {
+  background-color: #FFFBA6;
+  color: #464646;
+}

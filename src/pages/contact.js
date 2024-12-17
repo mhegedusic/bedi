@@ -1,15 +1,40 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-function Contact() {
-  const { t } = useTranslation();
+
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('bedi_id', 'bedi_template', form.current, 'zyz7r0M36LLdY41Ah')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+    e.target.reset();
+  };
 
   return (
-    <div className='ms-4'>
-      <h2>{t('menu.contact')}</h2>
-      <p>{t('contact_content').split('\n').map((line, index) => (
-        <p key={index}>{line}</p>
-      ))}</p> {/* Dodaj odgovarajući sadržaj */}
+    <div className='contactForm'>
+      <h2>Pošaljite nam upit</h2>
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Ime</label>
+        <input type="text" name="name" required />
+        <br />
+        <label>Email</label>
+        <input type="email" name="email" required />
+        <br />
+        <label>Poruka</label>
+        <textarea name="message" required></textarea>
+        <br />
+        <label>Broj telefona:</label>
+        <input type="text" name="tel" required/>
+        <button type="submit">Pošalji</button>
+      </form>
     </div>
   );
 }
